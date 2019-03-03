@@ -1,0 +1,38 @@
+/* Color scheme */
+@dark-color: #110e7c;
+@light-color: #d1e3ec;
+@deep-color: #3db8f5;
+@border-color: #939393;
+
+html {
+    font-size: 10px;
+}
+body {
+    background-image: url('/img/main-bg.png');
+}
+
+.main-container {
+    margin: 15rem auto;
+    width: 980px;
+    height: 630px;
+    text-align: center;
+    word-spacing: -0.4rem;
+    div {
+        word-spacing: normal;
+        margin-top: -.4rem;
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid @border-color;
+    }
+}
+
+.blue {
+    background: @dark-color;
+}
+.light-blue {
+    background: @light-color;
+}
+.deep {
+    background: @deep-color;
+}

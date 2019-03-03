@@ -1,0 +1,31 @@
+/* Color scheme */
+html {
+  font-size: 10px;
+}
+body {
+  background-image: url('/img/main-bg.png');
+}
+.main-container {
+  margin: 15rem auto;
+  width: 980px;
+  height: 630px;
+  text-align: center;
+  word-spacing: -0.4rem;
+}
+.main-container div {
+  word-spacing: normal;
+  margin-top: -0.4rem;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #939393;
+}
+.blue {
+  background: #110e7c;
+}
+.light-blue {
+  background: #d1e3ec;
+}
+.deep {
+  background: #3db8f5;
+}
